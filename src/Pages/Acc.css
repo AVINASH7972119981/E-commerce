@@ -1,0 +1,48 @@
+/* AccountPage.css */
+
+.account-page {
+  display: flex;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 220px;
+  background-color: #f0f4f8;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.sidebar-item {
+  padding: 10px 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  color: #1a3d7c;
+}
+
+.sidebar-item:hover {
+  background-color: #dbe7f0;
+  border-radius: 4px;
+}
+
+.main-panel {
+  flex: 1;
+  padding: 30px;
+  background-color: #fff;
+  overflow-y: auto;
+}
+
+.main-panel h2 {
+  margin-bottom: 20px;
+  color: #1a3d7c;
+}
+
+.info-row {
+  display: flex;
+  gap: 40px;
+}
+
+.info-column p {
+  margin: 8px 0;
+  font-size: 14px;
+}
